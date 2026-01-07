@@ -1,4 +1,4 @@
-# Celestial Labs Design System (v1.0)
+n # Celestial Labs Design System (v1.0)
 > **Role**: The centralized "Source of Truth" for the Celestial Labs aesthetic, UI patterns, and brand voice.
 > **Target Audience**: AI Agents & Human Developers.
 > **Core Theme**: Industrial Futurist / Deep Tech / Sovereign Kinetic.

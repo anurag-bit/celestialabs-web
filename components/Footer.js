@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Footer() {
     return (
-        <footer className={styles.footer}>
+        <footer id="footer" className={styles.footer}>
             <div className={styles.container}>
                 <div>
                     <h4 className={styles.brandName}>CELESTIAL LABS</h4>

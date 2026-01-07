@@ -36,6 +36,15 @@
     text-align: center;
 }
 
+.dynamicWrapper {
+    height: 12vw;
+    /* Matches font-size roughly to reserve space */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 768px) {
     .title {
         font-size: 12vw;

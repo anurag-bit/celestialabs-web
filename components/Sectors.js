@@ -31,7 +31,7 @@ const SECTORS = [
 
 export default function Sectors() {
     return (
-        <section className={styles.section}>
+        <section id="sectors" className={styles.section}>
             <div className={styles.container}>
                 <h2 className={styles.label}>
                     002 // OPERATIONS

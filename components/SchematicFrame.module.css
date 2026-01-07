@@ -1,0 +1,83 @@
+.frame {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.bracketTL,
+.bracketTR,
+.bracketBL,
+.bracketBR {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--grid-line);
+}
+
+.bracketTL {
+    top: 2rem;
+    left: 2rem;
+    border-right: none;
+    border-bottom: none;
+}
+
+.bracketTR {
+    top: 2rem;
+    right: 2rem;
+    border-left: none;
+    border-bottom: none;
+}
+
+.bracketBL {
+    bottom: 2rem;
+    left: 2rem;
+    border-right: none;
+    border-top: none;
+}
+
+.bracketBR {
+    bottom: 2rem;
+    right: 2rem;
+    border-left: none;
+    border-top: none;
+}
+
+.label {
+    position: absolute;
+    top: 2rem;
+    left: 4.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--platinum);
+    opacity: 0.5;
+    letter-spacing: 0.1em;
+}
+
+.metaTop {
+    position: absolute;
+    top: 2.5rem;
+    right: 4.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--platinum);
+    opacity: 0.3;
+}
+
+.metaBottom {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 4.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    color: var(--platinum);
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .frame {
+        display: none;
+        /* Hide on mobile to prevent clutter */
+    }
+}
