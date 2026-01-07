@@ -1,0 +1,96 @@
+# Celestial Labs Design System
+
+## Core Design Principles
+- **Minimalism**: Clean lines, ample whitespace, and focused content.
+- **Monochrome & Contrast**: High contrast black and white theme with subtle grays.
+- **Data-Centric**: Use of monospaced fonts and grid layouts to evoke a scientific/lab aesthetic.
+- **Subtle Motion**: smooth transitions on hover and interaction.
+
+## 1. Color Palette
+
+### CSS Variables
+- `--void`: `#050505` (Main Background)
+- `--starlight`: `#F5F5F7` (Main Text)
+- `--platinum`: `#E5E4E2` (Secondary Text / Accents)
+- `--nebula`: `#1A1D23` (Card Hover / Accent Background)
+- `--grid-line`: `rgba(255, 255, 255, 0.08)` (Borders & Grid Lines)
+
+### Usage
+- **Backgrounds**: predominantly `--void`.
+- **Text**: `--starlight` for headings and primary text, `--platinum` (often with opacity) for secondary text.
+- **Borders**: `--grid-line` for subtle structural division.
+- **Interactive**: `--nebula` for hover states on cards.
+
+## 2. Typography
+
+### Fonts
+- **Primary (Sans)**: Inter (`var(--font-inter)`)
+- **Secondary (Mono)**: IBM Plex Mono (`var(--font-mono)`)
+
+### Hierarchy
+- **Display / Hero Title**: 
+  - Size: `10vw` (mobile) to `12vw` (desktop)
+  - Weight: `600`
+  - Tracking: `-0.05em`
+  - Line-height: `0.85`
+  
+- **Section Headings**:
+  - Size: `3rem` to `4rem`
+  - Weight: `300`
+  - Tracking: `-0.05em`
+  - Color: `--starlight`
+
+- **Card Titles**:
+  - Size: `1.5rem` to `1.875rem`
+  - Weight: `300`
+  - Tracking: `-0.025em`
+
+- **Body Text**:
+  - Size: `1rem`
+  - Line-height: `1.6`
+  - Color: `--platinum` (opacity 0.7)
+
+- **Labels / Meta / Buttons**:
+  - Font: `var(--font-mono)`
+  - Size: `0.75rem` to `0.875rem`
+  - Uppercase: `text-transform: uppercase`
+  - Tracking: `0.1em` to `0.2em`
+  - Opacity: often started at `0.5`
+
+## 3. Layout & Spacing
+
+### Container
+- **Max Width**: `1600px` (standard), `72rem` (large content), `56rem` (focused content).
+- **Padding**: `0 2rem` (horizontal).
+- **Section Padding**: `8rem 0` (vertical).
+
+### Grid System
+- Used for backgrounds (`.grid-bg`) and content layouts.
+- `.grid-bg`: 80px x 80px grid pattern using `--grid-line`.
+- Content Grids: Often 1 column on mobile, expansion to 3 or 4 columns on desktop.
+
+## 4. Components
+
+### Cards
+- **Style**: Minimal container with `--grid-line` border.
+- **Behavior**: Background color transition to `--nebula` on hover.
+- **Content**: Title, Description, and optional ID/Action.
+- **Action Button**: Often hidden or low opacity, appearing/highlighting on hover.
+
+### Buttons / Actions
+- **Style**: Outlined with `--grid-line`.
+- **Typography**: Mono, Uppercase, Small.
+- **Hover**: Invert colors (Bg: `--starlight`, Text: `--void`).
+
+### Inputs (Implied from potential login/signup)
+- Simple text fields, likely transparent background with bottom border or outline.
+
+## 5. Effects
+
+### Transitions
+- Standard duration: `0.2s` to `0.5s`.
+- Properties: `background-color`, `opacity`, `transform`.
+
+### Visuals
+- **Background Grid**: Linear gradient pattern to create a technical feel.
+- **Scroll Prompt**: Subtle animated element at bottom of hero.
