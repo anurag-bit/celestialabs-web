@@ -1,0 +1,98 @@
+/* CelestialCanvas.module.css */
+
+.canvasWrapper {
+    width: 100%;
+    height: 600px;
+    background: var(--void);
+    border: 1px solid var(--grid-line);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+/* --- Custom Node: Resource --- */
+.resourceNode {
+    background: var(--void);
+    border: 1px solid var(--grid-line);
+    border-radius: 4px;
+    min-width: 200px;
+    padding: 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+}
+
+.resourceNode:hover {
+    border-color: var(--starlight);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+}
+
+.nodeHeader {
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid var(--grid-line);
+    padding: 0.75rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nodeTitle {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--starlight);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nodeStatus {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #4CAF50;
+    box-shadow: 0 0 8px #4CAF50;
+}
+
+.nodeBody {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nodeRow {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    color: var(--platinum);
+    opacity: 0.7;
+}
+
+.nodeValue {
+    color: var(--starlight);
+}
+
+/* --- Handles (Ports) --- */
+.handle {
+    width: 10px !important;
+    height: 10px !important;
+    background: var(--void) !important;
+    border: 1px solid var(--starlight) !important;
+    border-radius: 50%;
+}
+
+.handle:hover {
+    background: var(--starlight) !important;
+}
+
+/* --- Custom Edge --- */
+.edgeLabel {
+    background: var(--void);
+    border: 1px solid var(--grid-line);
+    padding: 0.25rem 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.65rem;
+    border-radius: 4px;
+    color: var(--platinum);
+}

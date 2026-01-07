@@ -1,4 +1,5 @@
 import StreamedText from './StreamedText';
+import CelestialCanvas from '@/components/CelestialFlow/CelestialCanvas';
 import styles from './page.module.css';
 
 export const metadata = {
@@ -878,6 +879,12 @@ export default function DesignPage() {
                             <StreamedText text="Analyzing neural pathways... Connection established. Accessing deep space telemetry nodes [882-Alpha, 991-Beta]. Data stream synchronized. Waiting for user command." />
                         </div>
                     </div>
+                </section>
+
+                {/* System Architecture Section */}
+                <section className={styles.section}>
+                    <h2 className={styles.sectionTitle}>23. System Architecture</h2>
+                    <CelestialCanvas />
                 </section>
 
             </div>
