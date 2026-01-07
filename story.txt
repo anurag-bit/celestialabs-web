@@ -20,3 +20,31 @@ Constructing the power plants, the propulsion systems,
 and the intelligence layers of the next century.
 
 Uncompromising. Essential. Permanent.
+
+
+Logo:
+CELESTIAL LABS // IDENTITY SIGNAL
+
+THE CORE PHILOSOPHY The logo must not look like a "tech startup" (no gradients, no abstract blobs). It must look like a SEAL. A stamp of heavy industry and sovereign authority. It should feel like it could be etched into titanium or printed on a bond certificate.
+
+THE MARK: "THE EVENT HORIZON"
+Visual: A perfect, solid circle of Void Black (#050505). Surrounded by an extremely thin, high-contrast ring of Starlight White (#F5F5F7). The ring is not uniform; it is slightly thicker at the bottom-left and thins out to a razor edge at the top-right.
+
+Meaning:
+
+The Eclipse: The moment of alignment.
+The Shield: Protection and durability.
+The Lens: Focus and observation (Research).
+Ascension: The thinning line points upward and outward.
+THE TYPOGRAPHY: "THE INSTITUTION"
+Font: Inter (Medium Weight) or IBM Plex Mono (for the 'LABS' part). Tracking: Wide (0.15em). Alignment: The text "CELESTIAL LABS" sits adjacent to the mark, or below it. The height of the text block exactly matches the diameter of the mark.
+
+Color: Primary: Platinum (#E5E4E2). It should look silver, not white.
+
+APPLICATION
+On White Paper: The mark is pure black. Sharp.
+On Dark Screens: The mark is an outline of light. A ghost.
+Favicon: The Ring.
+ANIMATION (WEB)
+The ring draws itself slowly, starting from the heavy bottom and whipping around to the thin top. The center remains absolute void.
+

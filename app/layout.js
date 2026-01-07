@@ -1,8 +1,8 @@
 import { Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ 
-  subsets: ["latin"], 
+const inter = Inter({
+  subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
@@ -17,6 +17,9 @@ const plexMono = IBM_Plex_Mono({
 export const metadata = {
   title: "Celestial Labs | The Lab for Existence",
   description: "The convergence of infinite capital and absolute innovation.",
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -1,0 +1,25 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- The Void (Center) -->
+  <circle cx="256" cy="256" r="200" fill="#050505"/>
+  
+  <!-- The Event Horizon (Ring) -->
+  <!-- Using a mask or stroke-width variation. 
+       Here, simulating the 'thinning ring' effect with a tapered stroke path or overlapping circles.
+       Implementing as a path for precise control of the taper. -->
+  <path d="M256 456 C 366.457 456 456 366.457 456 256 C 456 145.543 366.457 56 256 56 C 145.543 56 56 145.543 56 256 C 56 366.457 145.543 456 256 456 Z M 256 450 C 148.857 450 62 363.143 62 256 C 62 148.857 148.857 62 256 62 C 363.143 62 450 148.857 450 256 C 450 363.143 363.143 450 256 450 Z" 
+        fill="#F5F5F7" opacity="0.1"/>
+        
+  <!-- The Sharp High-Contrast Ring (Simpler for Favicon readability) -->
+  <!-- A solid white ring, but we want the "tapering" effect. -->
+  <!-- Drawing two arcs to simulate thickness difference -->
+  <path d="M256 466 C 140 466 46 372 46 256 C 46 140 140 46 256 46 C 372 46 466 140 466 256 C 466 372 372 466 256 466 Z M 256 456 C 366 456 456 366 456 256 C 456 146 366 56 256 56 C 146 56 56 146 256 456 Z" 
+        fill="#050505"/>
+  
+  <!-- Actual Ring Path -->
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M256 512C397.385 512 512 397.385 512 256C512 114.615 397.385 0 256 0C114.615 0 0 114.615 0 256C0 397.385 114.615 512 256 512ZM256 502C391.862 502 502 391.862 502 256C502 120.138 391.862 10 256 10C120.138 10 10 120.138 10 256C10 391.862 120.138 502 256 502Z" fill="#F5F5F7"/>
+  
+  <!-- Taper Overlay to thin out the top right -->
+  <!-- A black circle slightly offset to cut the ring thinner at the top right -->
+  <circle cx="260" cy="252" r="248" fill="#050505"/>
+
+</svg>
