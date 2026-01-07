@@ -798,7 +798,7 @@ export default function DesignPage() {
 
                         <div className={styles.pricingCard} style={{ borderColor: 'var(--starlight)' }}>
                             <div style={{ position: 'absolute', top: 0, right: 0, background: 'var(--starlight)', color: 'var(--void)', padding: '0.25rem 0.5rem', fontSize: '0.65rem', fontWeight: 600, letterSpacing: '0.1em' }}>POPULAR</div>
-                            <div className={styles.priceTier}>Colonizer</div>
+                            <div className={styles.priceTier}>Vanguard</div>
                             <div className={styles.priceAmount}>$49<span className={styles.pricePeriod}>/mo</span></div>
                             <div className={styles.featureList}>
                                 <div className={styles.featureItem}><span>✓</span> Unlimited node relays</div>
@@ -853,12 +853,7 @@ export default function DesignPage() {
                             </div>
                         </div>
 
-                        <div className={styles.componentCard}>
-                            <span className={styles.typeLabel}>Glitch Typography</span>
-                            <div className={styles.glitchContainer}>
-                                <div className={styles.glitchText} data-text="FAILURE">FAILURE</div>
-                            </div>
-                        </div>
+
 
                         <div className={styles.componentCard}>
                             <span className={styles.typeLabel}>Radar Scan</span>
