@@ -24,6 +24,12 @@ const ENGAGEMENTS = [
         desc: "Developer Services. API access to the Celestial operating layer, computational infrastructure, and intelligence grids.",
         link: "/signup?type=dev"
     },
+    {
+        id: "04",
+        title: "STRATEGIC CONSULTANCY",
+        desc: "Technology Architecture & Sovereign Infrastructure. High-command advisory for building dominance systems.",
+        link: "/signup?type=consultancy"
+    },
 ];
 
 export default function Relations() {
