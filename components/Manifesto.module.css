@@ -1,0 +1,55 @@
+.section {
+    padding: 8rem 1rem;
+    background-color: var(--void);
+    color: var(--starlight);
+    min-height: 100vh;
+    /* Ensure it takes space */
+}
+
+@media (min-width: 768px) {
+    .section {
+        padding: 8rem 0;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: 56rem;
+    /* max-w-4xl */
+    margin: 0 auto;
+}
+
+.label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    margin-bottom: 3rem;
+    opacity: 0.5;
+    letter-spacing: 0.1em;
+    border-bottom: 1px solid var(--grid-line);
+    padding-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    /* space-y-12 */
+}
+
+.line {
+    font-size: 1.5rem;
+    /* text-2xl */
+    line-height: 1.25;
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .line {
+        font-size: 2.25rem;
+        /* text-4xl */
+    }
+}
+
+.spacer {
+    height: 2rem;
+}
